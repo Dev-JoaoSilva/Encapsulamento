@@ -4,29 +4,28 @@ public class Conta {
     public double salario;
     protected String nome;
 
-    public void setNumero(int numero){
+    public void setNumero(int numero) {
         this.numero = numero;
     }
 
-    public int getNumero(){
+    public int getNumero() {
         return this.numero;
     }
 
-    public void setSalario(double salario){
+    public void setSalario(double salario) {
         this.salario = salario;
     }
 
-    public double getSalario(){
+    public double getSalario() {
         return this.salario;
     }
 
-    public void setNome(String nome){
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public String getString(){
+    public String getString() {
         return this.nome;
     }
-
 
 }
